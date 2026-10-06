@@ -217,7 +217,20 @@
 | Transaction | Multiple DB operations as one unit |
 | Rollback | Undo changes on failure |
 
-## 17) Additional Resources
+## 17) GitHub Troubleshooting Quick Reference
+- **Permission denied (publickey)** → Check SSH key, add key to GitHub, test with `ssh -T git@github.com`
+- **fatal: unable to access ... The requested URL returned error: 403** → Verify token permissions, PAT scope, or remote URL
+- **remote: Repository not found** → Check repo name, owner, and access rights
+- **Changes not showing in PR** → Ensure branch is pushed and PR is opened against the correct base branch
+- **Merge conflict** → `git status`, resolve files, `git add`, `git commit`
+- **Branch is behind main** → `git checkout main && git pull origin main && git checkout <branch> && git rebase main`
+- **Reset local branch to remote** → `git fetch origin && git reset --hard origin/main`
+- **Delete local branch** → `git branch -d <branch>` or `git branch -D <branch>`
+- **Delete remote branch** → `git push origin --delete <branch>`
+- **GitHub shows no file changes after commit** → Ensure files are committed and pushed; check correct branch
+- **Token expired** → Generate new PAT and update credentials / git credential manager
+
+## 18) Additional Resources
 - GitHub: Version control and collaboration
 - Stack Overflow: Troubleshooting common issues
 - Documentation: Official language/framework docs
