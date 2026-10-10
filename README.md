@@ -8,10 +8,11 @@ Troubleshooting references, tool-wise guides, Kubernetes YAML examples, logs, in
 2. [Interview-ready troubleshooting script](INTERVIEW-READY.md) — explain a systematic debugging approach.
 3. [Tool-wise interview quick sheet](TOOL-WISE-INTERVIEW-QUICK-SHEET.md) — fast revision across DevOps tools.
 4. [Official documentation practical labs](OFFICIAL-DOCS-PRACTICAL-TROUBLESHOOTING-LABS.md) — Terraform state/import, Kubernetes failures, GitHub Actions, and AWS VPC route diagnosis.
-5. [Kubernetes YAML types](KUBERNETES-ALL-YAML-TYPES.md) — resource configuration examples.
-6. [Log files reference](LOG-FILES-REFERENCE.md) — where to look when debugging.
-7. [General troubleshooting guide](troubleshooting-guide.md) — structured diagnosis.
-8. [Logs debugging](logs-debugging.md) — log-based troubleshooting.
+5. [Expanded DevOps interview scenario bank](EXPANDED-DEVOPS-INTERVIEW-SCENARIO-BANK.md) — common cross-tool failures and evidence-based diagnosis.
+6. [Kubernetes YAML types](KUBERNETES-ALL-YAML-TYPES.md) — resource configuration examples.
+7. [Log files reference](LOG-FILES-REFERENCE.md) — where to look when debugging.
+8. [General troubleshooting guide](troubleshooting-guide.md) — structured diagnosis.
+9. [Logs debugging](logs-debugging.md) — log-based troubleshooting.
 
 ## Official documentation
 
